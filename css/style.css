@@ -36,3 +36,13 @@
   text-decoration: none;
   font-size: 1rem;
 }
+
+@media screen and (max-width: 700px) {
+  .musik button {
+    width: 10rem;
+  }
+
+  .musik audio {
+    width: 10rem;
+  }
+}
