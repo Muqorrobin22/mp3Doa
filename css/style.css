@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+
+.musik {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.musik audio {
+  margin: 1rem 0;
+}
+
+.musik button {
+  width: 20rem;
+
+  padding: 0.3rem 1.2rem;
+}
+
+.musik a {
+  text-decoration: none;
+  font-size: 1rem;
+}
